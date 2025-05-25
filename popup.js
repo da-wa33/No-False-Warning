@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const defaultValue = 'back';
     const defaultRadio = document.querySelector(`input[name="action"][value="${defaultValue}"]`);
     if (defaultRadio) defaultRadio.checked = true;
-    // ストレージにも保存しておく
+
     chrome.storage.local.set({ action: defaultValue });
   }
   if (data.redirectUrl) {
