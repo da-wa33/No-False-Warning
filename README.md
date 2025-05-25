@@ -2,7 +2,8 @@
 さまざまなサイトの偽警告を対策します
 ## 偽警告?そんなの知りません
 ![スクリーンショット 2025-05-25 115155](https://github.com/user-attachments/assets/012c2b65-8200-4efe-92c4-bec1d04b5def)
-![スクリーンショット 2025-05-25 124759](https://github.com/user-attachments/assets/a6badb42-1455-4c2a-9394-2129fe1ee216)
+![スクリーンショット 2025-05-25 135021](https://github.com/user-attachments/assets/7627bac6-01c1-42db-91ae-5ce6bdfca502)
+
 
 
 さまざまな偽警告を対策します
