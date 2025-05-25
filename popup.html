@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>設定</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 10px 15px;
+      width: 280px;
+      box-sizing: border-box;
+      margin: 0;
+    }
+    h2 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    label {
+      display: flex;
+      align-items: center;
+      margin: 6px 0;
+      font-size: 14px;
+      cursor: pointer;
+      user-select: none;
+    }
+    input[type="radio"] {
+      margin-right: 8px;
+      flex-shrink: 0;
+    }
+    #redirectUrl {
+      width: 100%;
+      padding: 6px 8px;
+      font-size: 13px;
+      box-sizing: border-box;
+      margin: 6px 0 12px 22px; 
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      display: none;
+    }
+    button {
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 8px 12px;
+      font-size: 14px;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 100%;
+      box-sizing: border-box;
+      user-select: none;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    #status {
+      font-size: 13px;
+      margin-top: 8px;
+      color: #007700;
+      min-height: 18px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h2>アクセス時の動作設定</h2>
+
+  <label><input type="radio" name="action" value="back" />戻る（履歴なければタブを閉じる）</label>
+  <label><input type="radio" name="action" value="redirect" />特定のサイトにアクセス</label>
+  <input type="text" id="redirectUrl" placeholder="https://example.com" />
+
+  <label><input type="radio" name="action" value="none" />何もしない</label>
+
+  <button id="saveBtn">保存</button>
+
+  <div id="status"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
