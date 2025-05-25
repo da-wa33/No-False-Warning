@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Auto Action Redirector",
+  "name": "No False Warning",
   "version": "1.0",
   "permissions": ["storage", "tabs"],
   "host_permissions": ["<all_urls>"],
